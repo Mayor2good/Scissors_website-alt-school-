@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   /* Variables */
+:root {
+    --primary-color:#0065FE;
+    /* --secondary-color:#fff; */
+    --dark-blue-color:#005AE2;
+    --light-color:#fff;
+}
+/* Utilities */
+
+body {
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.text-center {  
+  text-align: center;
+}
+   /* containers */
+.container-1 {
+  margin: 0 12rem;
+}
+
+/* font-size */
+  .fs-1 {font-size: 3rem;}
+  .fs-2 {font-size: 2.5rem;}
+  .fs-3 {font-size: 2rem;}
+  .fs-4 {font-size: 1.2rem;}
+  /* Line-height */
+  .lh-1{line-height: 6rem;}
+  .lh-2 {line-height: 2rem;}
+  .lh-3 {line-height: 1.5rem;}
+
+
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+  }
+
+  .button-blue-1  {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+  }
+
+  .button-white-1 {
+    padding: 0.5rem 0.2rem;
+    border-radius:25px ;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+  }
+
+  .span-blue {
+    color: var(--primary-color);
+  }
+  
+
+  /* Navbar-Section */
+   .main-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+
+    }
+
+   .nav-item-2 {
+    display: flex;
+   }
+
+   .nav-item-2 li {
+    padding: 0.5rem 1.5rem;
+  font-family: 'Gilroy-light', sans-serif;
+  font-size: small;
+    
+   }
+
+   /* Showcase-Section */
+     .showcase-1-content {
+      text-align: center;
+     }
+
+     .showcase-1-content p {
+       margin: 2rem 5rem;
+     }
+
+     .showcase-1-button {
+      text-align: center;
+      margin-top: 2rem;
+     }
+
+     .showcase-1-group {
+       text-align: center;
+     }
+
+     .showcase-1-last {
+      background-color: rgb(228, 242, 250);
+      height: 20vh;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+     }
+
+     /* Section:Showcase-2 */
+        .showcase-2-area{
+          display:grid;
+          grid-template-columns: repeat(3, 1fr ) ;
+          grid-gap: 4rem;
+          margin: 2rem;
+          /* margin-top: 6rem; */
+        }
+
+        .showcase-2-area-box-1 {
+          grid-row: span 2;
+        
+        }
+
+        .showcase-2-area-box-1-content {
+          display: flex;
+        }
+
+              .showcase-2-area-box-1-content h1 {
+                text-align: center;
+              }
+            
+
+        .showcase-2-area-icon {
+          height: 55px;
+          width: 55px;
+          border-radius: 50%;
+          background: rgb(228, 242, 250);
+          margin-bottom: 1rem;
+        }
+
+        .showcase-2-last-content {
+          margin-top: 6rem;
+          }
+
+          /* Section:Showcase-3 */
+          .showcase-3-card {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            margin: 4rem 14rem;
+            border: 2px solid aqua;
+            border-radius: 10px;
+          }
+
+          
+          .card-input {
+            display: flex;
+            padding: 0.85rem;
+          }
+          
+          .showcase-3-card-area-2 {
+            width: 19vw;
+            height: 50vh;
+            background-color: #2C3E50;
+            color: var(--light-color);
+            padding: 6rem 1rem;
+            position: relative;
+            top: -29.5rem;
+            right: -33rem;
+          }
+
+          .card-button {
+            display: flex;
+            margin-top: 3rem;
+          }
+
+          /* Section: form  */
+
+          #form {
+            margin-top: -15rem;
+            overflow:hidden ;
+          }
+             .form-area {
+              background: #2C3E50 ;
+              height: 70vh;
+              max-width: 100vw;
+              display: flex; 
+              justify-content: space-between;
+             }
+
+             .form-main {
+              padding-top: 1.5rem;
+             }
+            
+             /* Section: FAQ */
+               .faq-area-main {
+                display: flex;
+                margin-left: 40rem;
+               }
+
+           .form-last-area {
+            background: #2C3E50;
+              height: 42vh;
+              max-width: 100vw;
+              display: flex;
+              justify-content: space-between;
+           }
+
+            .form-last-main {
+               color: var(--light-color);
+               padding-top: 5rem;
+            }
+
+            .btn {
+              margin-left: 12rem;
+              margin-top: 1rem;
+            }
+
+            /* Footer */
+            .footer-area {
+              display: grid;
+              grid-template-columns: repeat(5, 1fr);
+            }
+     .footer-icons{
+         grid-row: span 2;
+     }
+
+    .footer-img-1 {
+      position: relative;
+      top: 0;
+      left: -70rem;
+    }
+
+    .footer-last {
+      text-align: end;
+    }
+     
+    
+                
+
+
+      
+     
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
